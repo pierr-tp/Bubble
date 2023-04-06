@@ -1,0 +1,41 @@
+body
+{
+	background-color: #eee
+}
+.body2
+{
+	background-color: white;
+	border-radius: 5px;
+	height: 200px;
+	margin-left: 500px;
+	margin-right: 500px;
+}
+h1
+{
+	text-align: center;
+	margin-top: 100px;
+	font-family: Arial;
+}
+h4
+{
+	text-align: center;
+	font-family: Arial; 
+}
+form
+{
+	text-align: center;
+	font-family: Arial;
+}
+input
+{
+	border-style: none;
+	border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	background-color: orange;
+	color: white;
+}
+input:hover
+{
+	background-color: #FAA401;
+}

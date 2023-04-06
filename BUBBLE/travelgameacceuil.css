@@ -1,0 +1,33 @@
+h1
+{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	background-color: yellow;
+	background: url('jaune.png');
+	color: white;
+	font-family: monospace;
+	font-size: 50px;
+	top: 16px;
+	border-radius: 100px;
+}
+h2
+{
+	font-weight: bold;
+	text-align: center;
+	font-family: monospace;	
+}
+p
+{
+	font-weight: bold;
+	text-align: center;
+	font-family: monospace;		
+}
+.planepilot
+{
+	float: left;
+}
+.instructions
+{
+	color: red;
+}

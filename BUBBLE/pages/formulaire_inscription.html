@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" id="bubble">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="sn, social network, reseau social, SN">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google-signin-client-id" content="1093984119311-itsnn4tobi6ftlc92vtnvokfp6uumftg.apps.googleusercontent.com">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet"  type=" text/css" href="formulaire_inscription.css">
+	<title>Bubble-inscription</title>
+	<style type="text/css">
+		.g-signin2{
+			margin-left: 500px;
+			margin-top: 200px;
+		}
+	</style>
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->	
+</head>
+<body>
+<header>
+	<h1>INSCRIPTION</h1>
+</header>
+	<script src="jquery-3.3.1.js">
+		$(document).ready(function() {
+
+			$("#register_form input").focus(function(){
+				$("#status").fadeOut(800);
+			});
+
+			$("#pseudo").keyup(function(){
+				check_pseudo();
+			})
+		});
+		function check_pseudo(){
+			$.ajax({
+				type: "post",
+				url: "register.php",
+				data: {
+					'pseudo_check' : $("#pseudo").val()
+				},
+				success: function(data){
+					if(data == "success"){
+						$("#output_checkuser").html('<img src="check.icon.png" class="small_image" alt=""/>');
+						return true;
+					}
+					else{
+						$("#output_checkuser").css("color", "red").html.(data);
+					}
+				}
+			});
+		}
+	</script>
+	<form id="register_form" method="post" onsubmit="return false;">
+		<input type="text" name="pseudo_check" placeholder="Pseudo ou nom" required>
+		<small id="output_checkuser"></small><br><br>
+		<input type="email" name="email" placeholder="Email" required>
+		<small id="output_email"></small><br><br>
+		<input type="password" name="password" placeholder="Mot de passe" required>
+		<small id="output_pass"></small><br><br>
+		<div id="status">
+			Remplir tous les champs
+		</div>
+		<input type="submit" name="ok" class="ok" value="OK"><br>
+	</form>
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+</body>
+</html>

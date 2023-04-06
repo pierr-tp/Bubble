@@ -1,0 +1,33 @@
+h1
+{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	font-family: monospace;
+	font-size: 50px;
+	top: 16px;
+	border-radius: 100px;
+}
+p
+{
+	font-weight: bold;
+	text-align: center;
+	font-family: monospace;	
+}
+form
+{
+	text-align: center;
+	border-color: white;
+}
+input
+{
+	border-style: none;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	border-radius: 100px;
+}
+input:hover
+{
+	border-style: groove;
+}

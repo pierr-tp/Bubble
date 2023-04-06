@@ -1,0 +1,29 @@
+p
+{
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-family: Arial;
+}
+form
+{
+	text-align: center;
+}
+input
+{
+	border-radius: 5px;
+	border-style: groove;
+}
+.b1
+{
+	border-style: none;
+	background-color: #FEA347;
+	border-radius: 5px;
+	font-weight: bold;
+	border-style: solid;
+	color: white; 
+}
+.b1:hover
+{
+	background-color: #F0E68C;
+}

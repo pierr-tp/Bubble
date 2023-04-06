@@ -1,0 +1,105 @@
+body
+{
+	background-color: #eee
+}
+h1
+{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	background-color: #1E90FF;
+	color: white;
+	font-family: monospace;
+	font-size: 50px;
+	top: 16px;
+	border-radius: 100px;
+	float: top;
+}
+form
+{
+	text-align: center;
+}
+input
+{
+	border-style: groove;
+	margin-top: 0px;
+	outline: none;
+	font-family: Arial;
+
+}
+.search
+{
+	height: 25px;
+	width: 200px;
+	border-radius: 5px;
+	border-style: groove;
+}
+.search:focus
+{
+	width: 300px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+img
+{
+	margin-top: 30px;
+	margin-left: 625px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+}
+h2
+{
+	text-align: center;
+	font-family: Arial;
+}
+#menu
+{
+	display: flex;
+}
+.element1
+{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-right: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.element2
+{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-right: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.element3
+{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-right: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.element4
+{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+ul
+{
+	margin-top: 0px;
+	font-family: Arial;
+	list-style-type: none;
+	background-color: #1E90FF;
+	background-position: center;
+	border-radius: 5px;
+	text-align: center;
+
+}

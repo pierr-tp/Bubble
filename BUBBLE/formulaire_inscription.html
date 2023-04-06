@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr" id="bubble">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  type=" text/css" href="formulaire_inscription.css">
+	<title>Bubble-inscription</title>
+</head>
+<body>
+<header>
+	<h1>INSCRIPTION</h1>
+</header>
+	<form method="post" action="inscription_post.php">
+		<input type="text" name="pseudo" placeholder="Pseudo ou nom"><br><br>
+		<input type="email" name="email" placeholder="Email"><br><br>
+		<input type="password" name="password" placeholder="Mot de passe"><br><br>
+		<label for="sexe">Genre</label><br>
+		<select name="genre" id="sexe"><br><br>
+			<option value="homme">Homme</option>
+			<option value="femme">Femme</option>	
+		</select><br><br>
+		<label for="age">Date de naissance</label><br>
+		<input type="date" name="date" id="age"><br><br>
+		<input type="submit" name="ok" class="ok" value="OK"><br>
+	</form>
+</body>
+</html>

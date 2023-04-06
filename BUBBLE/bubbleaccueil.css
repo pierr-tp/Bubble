@@ -1,0 +1,63 @@
+h1
+{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	background-color: #1E90FF;
+	color: white;
+	font-family: monospace;
+	font-size: 50px;
+	top: 16px;
+	border-radius: 100px;
+}
+.button1
+{
+	margin-left: 600px;
+	margin-top: 300px;
+}
+.button2
+{
+	margin-left: 625px;
+	margin-top:300px;
+}
+.button3
+{
+	margin-left: 625px;
+	margin-top: 700px; 
+}
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+		height: auto;
+	}
+}
+body
+{
+	background: url('p.png');
+	background-position: center;
+}
+input
+{
+	border-style: groove;
+	background-color: #FEA347;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 150px;
+	height: 40px;
+	border-style: solid;
+}
+input:hover
+{
+	background-color: #F0E68C;
+}
+a
+{
+	text-decoration: none;
+	color: yellow;
+}
+a:hover
+{
+	color: #F0E68C;
+}

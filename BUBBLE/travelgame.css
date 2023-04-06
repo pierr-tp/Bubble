@@ -1,0 +1,36 @@
+h1
+{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	background-color: yellow;
+	background: url('jaune.png');
+	color: white;
+	font-family: monospace;
+	font-size: 50px;
+	top: 16px;
+	border-radius: 100px;
+}
+.button
+{
+	margin-left: 600px;
+	margin-top: 200px;
+}
+input
+{
+	border-style: groove;
+	background-color: #FFDE75;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 150px;
+	height: 40px;
+	border-style: solid;
+}
+input:hover
+{
+	background-color: #F0E68C;
+}
+body
+{
+	background: url("plane.png");
+}
